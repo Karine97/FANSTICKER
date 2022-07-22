@@ -38,98 +38,116 @@
 
 <div class="row">
     <article class="image"> 
-        <figure>       
-            <div>  
-                <img src="images/Stickers_Naissance/n1.png" alt="naissance 1">
-            </div>
-            <figcaption>
-                <h4 class="theme-h4">Stickers Garçon</h4>
-                <p>Lot de 6 : 4,99€<br>Taille unique : L 4 cm, H 4 cm</p>
-                <label for="panier" class="label-input">Ajouter au panier</label>
-                <input type="number" id="panier" min="1" max="10" required>
-                <button onclick="fpanier()">Valider</button>
+        <figure>
+            <figcaption>       
+                <div>  
+                    <img src="images/Stickers_Naissance/n1.png" alt="naissance 1">
+                </div>
+                <p>
+                    <h4 class="theme-h4">Lot de : 6 Stickers Garçon</h4>
+                    <h5 class="theme-h5">Taille unique : L 4 cm, H 4 cm</h5>
+                    <p>Prix : 4,99€</p>
+                    <label for="panier" class="label-input">Quantité</label>
+                    <input type="number" id="panier" min="1" max="10" required>
+                    <button onclick="fpanier()">Ajouter au panier</button>
+                </p>
             </figcaption>
         </figure>
     </article>
     
     <article class="image"> 
         <figure>
-            <div>    
-                <img src="images/Stickers_Naissance/n2.png" alt="naissance 2">
-            </div>
             <figcaption>
-                <h4 class="theme-h4">Stickers Garçon</h4>
-                <p>Lot de 6 : 4,99€<br>Taille unique : L 5 cm, H 3 cm</p>
-                <label for="panier" class="label-input">Ajouter au panier</label>
-                <input type="number" id="panier" min="1" max="10" required>
-                <button onclick="fpanier()">Valider</button>
+                <div>    
+                    <img src="images/Stickers_Naissance/n2.png" alt="naissance 2">
+                </div>
+                <p>
+                    <h4 class="theme-h4">Lot de : 6 Stickers Garçon</h4>
+                    <h5 class="theme-h5">Taille unique : L 5 cm, H 3 cm</h5>
+                    <p>Prix : 4,99€</p>
+                    <label for="panier" class="label-input">Quantité</label>
+                    <input type="number" id="panier" min="1" max="10" required>
+                    <button onclick="fpanier()">Ajouter au panier</button>
+                </p>
             </figcaption>
         </figure>
     </article>
 
     <article class="image"> 
         <figure>
-            <div>
-                <img src="images/Stickers_Naissance/n3.png" alt="naissance 3">
-            </div>
             <figcaption>
-                <h4 class="theme-h4">Stickers Bébé</h4>
-                 <p>Lot de 6 : 4,99€<br>Taille unique : L 4 cm, H 4 cm</p>
-                 <label for="panier" class="label-input">Ajouter au panier</label>
-                <input type="number" id="panier" min="1" max="10" required>
-                <button onclick="fpanier()">Valider</button>
+                <div>
+                    <img src="images/Stickers_Naissance/n3.png" alt="naissance 3">
+                </div>
+                <p>
+                    <h4 class="theme-h4">Lot de : 6 Stickers Bébé</h4>
+                    <h5 class="theme-h5">Taille unique : L 4 cm, H 4 cm</h5>
+                    <p>Prix : 4,99€</p>
+                    <label for="panier" class="label-input">Quantité</label>
+                    <input type="number" id="panier" min="1" max="10" required>
+                    <button onclick="fpanier()">Ajouter au panier</button>
+                </p>
             </figcaption>
         </figure>
     </article>
 
     <article class="image"> 
         <figure>
-            <div>
-                <img src="images/Stickers_Naissance/n4.png" alt="naissance 4">
-            </div>     
             <figcaption>
-                <h4 class="theme-h4">Stickers Fille</h4>
-                <p>Lot de 6 : 4,99€<br>Taille unique : L 4 cm, H 4 cm </p>
-                <label for="panier" class="label-input">Ajouter au panier</label>
-                <input type="number" id="panier" min="1" max="10" required>
-                <button onclick="fpanier()">Valider</button>
+                <div>
+                    <img src="images/Stickers_Naissance/n4.png" alt="naissance 4">
+                </div>     
+                <p>
+                    <h4 class="theme-h4">Lot de : 6 Stickers Fille</h4>
+                    <h5 class="theme-h5">Taille unique : L 4 cm, H 4 cm</h5>
+                    <p>Prix : 4,99€</p>
+                    <label for="panier" class="label-input">Quantité</label>
+                    <input type="number" id="panier" min="1" max="10" required>
+                    <button onclick="fpanier()">Ajouter au panier</button>
+                </p>
             </figcaption>
         </figure>
     </article>
 
     <article class="image"> 
         <figure>
-            <div>
-            <img src="images/Stickers_Naissance/n5.png" alt="naissance 5">
-            </div>
             <figcaption>
-                <h4 class="theme-h4">Stickers Petits pieds</h4>
-                <p>Lot de 6 : 4,99€<br>Taille unique : L 5 cm, H 3 cm</p>
-                <label for="panier" class="label-input">Ajouter au panier</label>
-                <input type="number" id="panier" min="1" max="10" required>
-                <button onclick="fpanier()">Valider</button>
+                <div>
+                    <img src="images/Stickers_Naissance/n5.png" alt="naissance 5">
+                </div>
+                <p>
+                    <h4 class="theme-h4">Lot de : 6 Stickers Petits pieds</h4>
+                    <h5 class="theme-h5">Taille unique : L 5 cm, H 3 cm</h5>
+                    <p>Prix : 4,99€</p>
+                    <label for="panier" class="label-input">Quantité</label>
+                    <input type="number" id="panier" min="1" max="10" required>
+                    <button onclick="fpanier()">Ajouter au panier</button>
+                </p>
             </figcaption>
         </figure>
     </article>
 
     <article class="image"> 
         <figure>
-            <div>
-            <img src="images/Stickers_Naissance/n6.png" alt="naissance 6">
-            </div>
-        <figcaption>
-                <h4 class="theme-h4">Stickers Cigogne</h4>
-                <p>Lot de 6 : 4,99€<br>Taille unique : L 4 cm, H 4 cm</p>
-                <label for="panier" class="label-input">Ajouter au panier</label>
-                <input type="number" id="panier" min="1" max="10" required>
-                <button onclick="fpanier()">Valider</button>
+            <figcaption>
+                <div>
+                    <img src="images/Stickers_Naissance/n6.png" alt="naissance 6">
+                </div>
+                <p>
+                    <h4 class="theme-h4">Lot de : 6 Stickers Cigogne</h4>
+                    <h5 class="theme-h5">Taille unique : L 4 cm, H 4 cm</h5>
+                    <p>Prix : 4,99€</p>
+                    <label for="panier" class="label-input">Quantité</label>
+                    <input type="number" id="panier" min="1" max="10" required>
+                    <button onclick="fpanier()">Ajouter au panier</button>
+                </p>
             </figcaption>
         </figure>
     </article>
 </div>
 </section>
 
-<script type="text/javascript" src="css/script.js"></script>
+<script type="text/javascript" src="css/themes.js"></script>
 </main> 
 
     <?php

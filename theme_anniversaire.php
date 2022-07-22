@@ -38,98 +38,117 @@
 
 <div class="row">
     <article class="image"> 
-        <figure>       
-            <div>  
+        <figure>   
+            <figcaption>    
+                <div>  
                 <img src="images/Stickers_Anniversaire/a1.png" alt="anniversaire 1">
-            </div>
-            <figcaption>
-                <h4 class="theme-h4">Stickers Muffin</h4>
-                <p>Lot de 6 : 4,99€<br>Taille unique : L 4 cm, H 4 cm</p>
-                <label for="panier" class="label-input">Ajouter au panier</label>
-                <input type="number" id="panier" min="1" max="10" required>
-                <button onclick="fpanier()">Valider</button>
-            </figcaption>
-        </figure>
+                </div>
+                <p>
+                    <h4 class="theme-h4">Lot de : 6 Stickers Muffin</h4>
+                    <h5 class="theme-h5">Taille unique : L 4 cm, H 4 cm</h5>
+                    <p>Prix : 4,99€</p>
+                    <label for="panier" class="label-input">Quantité</label>
+                    <input type="number" id="panier" min="1" max="10" required>
+                    <button onclick="fpanier()">Ajouter au panier</button>
+                </p>
+
+                </figcaption>
+            </figure>
     </article>
     
     <article class="image"> 
         <figure>
-            <div>    
-                <img src="images/Stickers_Anniversaire/a2.png" alt="anniversaire 2">
-            </div>
             <figcaption>
-                <h4 class="theme-h4">Stickers Chien</h4>
-                <p>Lot de 6 : 4,99€<br>Taille unique : L 4 cm, H 4 cm</p>
-                <label for="panier" class="label-input">Ajouter au panier</label>
-                <input type="number" id="panier" min="1" max="10" required>
-                <button onclick="fpanier()">Valider</button>
-            </figcaption>
+                <div>    
+                    <img src="images/Stickers_Anniversaire/a2.png" alt="anniversaire 2">
+                </div>
+                <p>
+                    <h4 class="theme-h4">Lot de : 6 Stickers Chien</h4>
+                    <h5 class="theme-h5">Taille unique : L 4 cm, H 4 cm</h5>
+                    <p>Prix : 4,99€</p>
+                    <label for="panier" class="label-input">Quantité</label>
+                    <input type="number" id="panier" min="1" max="10" required>
+                    <button onclick="fpanier()">Ajouter au panier</button>
+                </p>
+                </figcaption>
         </figure>
     </article>
 
     <article class="image"> 
         <figure>
-            <div>
-                <img src="images/Stickers_Anniversaire/a3.png" alt="anniversaire 3">
-            </div>
             <figcaption>
-                <h4 class="theme-h4">Stickers Cadeau</h4>
-                 <p>Lot de 6 : 4,99€<br>Taille unique : L 4 cm, H 4 cm</p>
-                <label for="panier" class="label-input">Ajouter au panier</label>
-                <input type="number" id="panier" min="1" max="10" required>
-                <button onclick="fpanier()">Valider</button>
-            </figcaption>
+                <div>
+                    <img src="images/Stickers_Anniversaire/a3.png" alt="anniversaire 3">
+                </div>
+                <p>
+                    <h4 class="theme-h4">Lot de : 6 Stickers Cadeau</h4>
+                    <h5 class="theme-h5">Taille unique : L 4 cm, H 4 cm</h5>
+                    <p>Prix : 4,99€</p>
+                    <label for="panier" class="label-input">Quantité</label>
+                    <input type="number" id="panier" min="1" max="10" required>
+                    <button onclick="fpanier()">Ajouter au panier</button>
+                </p>
+                </figcaption>
         </figure>
     </article>
 
     <article class="image"> 
         <figure>
-            <div>
+            <figcaption>
+                <div>
                 <img src="images/Stickers_Anniversaire/a4.png" alt="anniversaire 4">
-            </div>     
-            <figcaption>
-                <h4 class="theme-h4">Stickers Festif</h4>
-                <p>Lot de 6 : 4,99€<br>Taille unique : L 4 cm, H 4 cm</p>
-                <label for="panier" class="label-input">Ajouter au panier</label>
-                <input type="number" id="panier" min="1" max="10" required>
-                <button onclick="fpanier()">Valider</button>
+                </div>     
+                <p>
+                    <h4 class="theme-h4">Lot de : 6 Stickers Festif</h4>
+                    <h5 class="theme-h5">Taille unique : L 4 cm, H 4 cm</h5>
+                    <p>Prix : 4,99€</p>
+                    <label for="panier" class="label-input">Quantité</label>
+                    <input type="number" id="panier" min="1" max="10" required>
+                    <button onclick="fpanier()">Ajouter au panier</button>
+                </p>
             </figcaption>
         </figure>
     </article>
 
     <article class="image"> 
         <figure>
-            <div>
-            <img src="images/Stickers_Anniversaire/a5.png" alt="anniversaire 5">
-            </div>
             <figcaption>
-                <h4 class="theme-h4">Stickers Gâteau fraise</h4>
-                <p>Lot de 6 : 4,99€<br>Taille unique : L 5 cm, H 3 cm</p>
-                <label for="panier" class="label-input">Ajouter au panier</label>
-                <input type="number" id="panier" min="1" max="10" required>
-                <button onclick="fpanier()">Valider</button>
+                <div>
+                <img src="images/Stickers_Anniversaire/a5.png" alt="anniversaire 5">
+                </div>
+                <p>
+                    <h4 class="theme-h4">Lot de : 6 Stickers Gâteau Fraise</h4>
+                    <h5 class="theme-h5">Taille unique : L 4 cm, H 4 cm</h5>
+                    <p>Prix : 4,99€</p>
+                    <label for="panier" class="label-input">Quantité</label>
+                    <input type="number" id="panier" min="1" max="10" required>
+                    <button onclick="fpanier()">Ajouter au panier</button>
+                </p>
             </figcaption>
         </figure>
     </article>
 
     <article class="image"> 
         <figure>
-            <div>
-            <img src="images/Stickers_Anniversaire/a6.png" alt="anniversaire 6">
-            </div>
-        <figcaption>
-                <h4 class="theme-h4">Stickers Gâteau smarties</h4>
-                <p>Lot de 6 : 4,99€<br>Taille unique : L 5 cm, H 3 cm</p>
-                <label for="panier" class="label-input">Ajouter au panier</label>
-                <input type="number" id="panier" min="1" max="10" required>
-                <button onclick="fpanier()">Valider</button>
+            <figcaption>
+                <div>
+                <img src="images/Stickers_Anniversaire/a6.png" alt="anniversaire 6">
+                </div>
+                <p>
+                    <h4 class="theme-h4">Lot de : 6 Stickers Gâteau Smarties</h4>
+                    <h5 class="theme-h5">Taille unique : L 4 cm, H 4 cm</h5>
+                    <p>Prix : 4,99€</p>
+                    <label for="panier" class="label-input">Quantité</label>
+                    <input type="number" id="panier" min="1" max="10" required>
+                    <button onclick="fpanier()">Ajouter au panier</button>
+                </p>
             </figcaption>
         </figure>
     </article>
 </div>
 </section>
 
-<script type="text/javascript" src="css/script.js"></script>
+<script type="text/javascript" src="css/themes.js"></script>
 </main> 
 
     <?php

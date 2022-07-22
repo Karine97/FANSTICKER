@@ -10,39 +10,61 @@
 .theme-h2 {
     color: #000;
     text-align: left;
-    margin-top:100px;
+    margin-top: 300px;
     margin-left: 40px;
     font-size: 30px;
     font-family: raleway-regular, sans-serif;
+    width: 20%;
+    padding: 0.8rem;
+    border-radius: 6px;
+    background-color: #fcd1af;
+    border-bottom: 2px solid #06080f;
+
 }
 
 .theme-h4 {
     color: #000;
-    margin-top: 20px;
-    margin-left: 4px;
+    margin-left: 40px;
     font-size: 15px;
     font-family: raleway-regular, sans-serif;
 }
 
+.theme-h5 {
+    color: #000;
+    margin-left: 40px;
+    font-size: 15px;
+    font-family: raleway-regular, sans-serif;
+}
 
-article figure {
+p {
+    color: #000;
+    margin-left: 40px;
+    font-size: 15px;
+    font-family: raleway-regular, sans-serif;
+}
+
+label {
+    margin-left: 40px;
+}
+
+.row {
+    justify-content: space-between; /* Répartir équitablement les vignettes sur la largeur */
+}
+
+
+article figure { /* retirer les marges de la figure */
     margin: auto;
     
 }
 
-section div {
-    display: flex;
-    justify-content: space-around;
-}
-
 article img {
-    width: 280px;
-    height: 300px;
+    width: 215px;
+    height: 230px;
     margin-top: 30px;
-    margin-left: 60px;
     margin-right: 60px;
+    margin-left: 50px;
     margin-bottom: 10px;
-    padding: 0.5rem;
+    padding: 0.9rem;
 }
 
 article>figure>div {
@@ -52,11 +74,12 @@ article>figure>div {
 article>figure:hover>div>img {
     transform: scale(1.1);
 }
+
         
 figcaption {
     color: #000;
     font-size: 15px;
-    margin-top: -50px;
+    margin-top: 30px;
     margin-left: 90px;
     margin-right: 70px;
     margin-bottom: 50px;
@@ -68,10 +91,12 @@ figcaption {
     background: linear-gradient(to top, #fcd1af 20%, transparent 100%); /* #fff */
 }
 
-.row {
-    display: flex;
-    justify-content: space-between;
+figcaption button {
+    border: 1px solid black;
+    border-radius: 6px;
+    background-color: #fbac80;
 }
+
 
 /* ---------- partie responsive du site ---------- */
 @media screen and (max-width: 900px){
@@ -82,3 +107,4 @@ figcaption {
     nav a {
         font-size: 15px;
 }
+

@@ -41,7 +41,7 @@
     <div class="col-1">
         <button type="button" class="connexion"><a class="btn_third" href="connexion.php">S'identifier</a></button>
     </div class="col-1.5">
-    <div>
+   
         <button type="button" class="bouton_panier">
             <img class="panier" src=./images/panier_plein.png><a class="bouton_panier" href="panier.html">Panier</a>
         </button>

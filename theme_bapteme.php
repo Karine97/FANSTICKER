@@ -37,99 +37,117 @@
 <h2 class="theme-h2">Baptême</h2>
 
 <div class="row">
-    <article class="image"> 
-        <figure>       
-            <div>  
-                <img src="images/Stickers_Bapteme/b1.png" alt="baptême 1">
-            </div>
-            <figcaption>
-                <h4 class="theme-h4">Stickers Petits pieds</h4>
-                <p>Lot de 6 : 4,99€<br>Taille unique : L 4 cm, H 4 cm</p>
-                <label for="panier" class="label-input">Ajouter au panier</label>
-                <input type="number" id="panier" min="1" max="10" required>
-                <button onclick="fpanier()">Valider</button></p>
+    <article class="image1"> 
+        <figure>
+            <figcaption>       
+                <div>  
+                    <img src="images/Stickers_Bapteme/b1.png" alt="baptême 1">
+                </div>
+                <p>
+                    <h4 class="theme-h4">Lot de : 6 Stickers Petits pieds</h4>
+                    <h5 class="theme-h5">Taille unique : L 4 cm, H 4 cm</h5>
+                    <p>Prix : 4,99€</p>
+                    <label for="panier" class="label-input">Quantité</label>
+                    <input type="number" id="panier" min="1" max="10" required>
+                    <button onclick="fpanier()">Ajouter au panier</button>
+                </p>
             </figcaption>
         </figure>
     </article>
     
-    <article class="image"> 
+    <article class="image1"> 
         <figure>
-            <div>    
-                <img src="images/Stickers_Bapteme/b2.png" alt="baptême 2">
-            </div>
             <figcaption>
-                <h4 class="theme-h4">Stickers Ma lumière</h4>
-                <p>Lot de 6 : 4,99€<br>Taille unique : L 4 cm, H 4 cm</p>
-                <label for="panier" class="label-input">Ajouter au panier</label>
-                <input type="number" id="panier" min="1" max="10" required>
-                <button onclick="fpanier()">Valider</button>
+                <div>    
+                    <img src="images/Stickers_Bapteme/b2.png" alt="baptême 2">
+                </div>
+                <p>
+                    <h4 class="theme-h4">Lot de : 6 Stickers Ma lumière</h4>
+                    <h5 class="theme-h5">Taille unique : L 4 cm, H 4 cm</h5>
+                    <p>Prix : 4,99€</p>
+                    <label for="panier" class="label-input">Quantité</label>
+                    <input type="number" id="panier" min="1" max="10" required>
+                    <button onclick="fpanier()">Ajouter au panier</button>
+                </p>
+            </figcaption>
+        </figure>
+    </article>
+
+    <article class="image1"> 
+        <figure>
+            <figcaption>
+                <div>
+                    <img src="images/Stickers_Bapteme/b3.png" alt="baptême 3">
+                </div>
+                <p>
+                    <h4 class="theme-h4">Lot de : 6 Stickers Bébé</h4>
+                    <h5 class="theme-h5">Taille unique : L 4 cm, H 4 cm</h5>
+                    <p>Prix : 4,99€</p>
+                    <label for="panier" class="label-input">Quantité</label>
+                    <input type="number" id="panier" min="1" max="10" required>
+                    <button onclick="fpanier()">Ajouter au panier</button>
+                </p>
+            </figcaption>
+        </figure>
+    </article>
+
+    <article class="image1"> 
+        <figure>
+            <figcaption>
+                <div>
+                    <img src="images/Stickers_Bapteme/b4.png" alt="baptême 4">
+                </div>     
+                <p>
+                    <h4 class="theme-h4">Lot de : 6 Stickers Mon petit ange</h4>
+                    <h5 class="theme-h5">Taille unique : L 4 cm, H 4 cm</h5>
+                    <p>Prix : 4,99€</p>
+                    <label for="panier" class="label-input">Quantité</label>
+                    <input type="number" id="panier" min="1" max="10" required>
+                    <button onclick="fpanier()">Ajouter au panier</button>
+                </p>
             </figcaption>
         </figure>
     </article>
 
     <article class="image"> 
         <figure>
-            <div>
-                <img src="images/Stickers_Bapteme/b3.png" alt="baptême 3">
-            </div>
             <figcaption>
-            <h4 class="theme-h4">Stickers Bébé</h4>
-                 <p>Lot de 6 : 4,99€<br>Taille unique : L 4 cm, H 4 cm</p>
-                <label for="panier" class="label-input">Ajouter au panier</label>
-                <input type="number" id="panier" min="1" max="10" required>
-                <button onclick="fpanier()">Valider</button>
+                <div>
+                    <img src="images/Stickers_Bapteme/b5.png" alt="baptême 5">
+                </div>
+                <p>
+                    <h4 class="theme-h4">Lot de : 6 Stickers Garçon</h4>
+                    <h5 class="theme-h5">Taille unique : L 5 cm, H 3 cm</h5>
+                    <p>Prix : 4,99€</p>
+                    <label for="panier" class="label-input">Quantité</label>
+                    <input type="number" id="panier" min="1" max="10" required>
+                    <button onclick="fpanier()">Ajouter au panier</button>
+                </p>
             </figcaption>
         </figure>
     </article>
 
-    <article class="image"> 
+    <article class="image1"> 
         <figure>
-            <div>
-                <img src="images/Stickers_Bapteme/b4.png" alt="baptême 4">
-            </div>     
             <figcaption>
-                <h4 class="theme-h4">Stickers Mon petit ange</h4>
-                <p>Lot de 6 : 4,99€<br>Taille unique : L 4 cm, H 4 cm</p>
-                <label for="panier" class="label-input">Ajouter au panier</label>
-                <input type="number" id="panier" min="1" max="10" required>
-                <button onclick="fpanier()">Valider</button>
-            </figcaption>
-        </figure>
-    </article>
-
-    <article> 
-        <figure>
-            <div class="image">
-            <img src="images/Stickers_Bapteme/b5.png" alt="baptême 5">
-            </div>
-            <figcaption>
-                <h4 class="theme-h4">Stickers Garçon</h4>
-                <p>Lot de 6 : 4,99€<br>Taille unique : L 5 cm, H 3 cm</p>
-                <label for="panier" class="label-input">Ajouter au panier</label>
-                <input type="number" id="panier" min="1" max="10" required>
-                <button onclick="fpanier()">Valider</button>
-            </figcaption>
-        </figure>
-    </article>
-
-    <article class="image"> 
-        <figure>
-            <div>
-            <img src="images/Stickers_Bapteme/b6.png" alt="baptême 6">
-            </div>
-        <figcaption>
-            <h4 class="theme-h4">Stickers Mon petit arc-en-ciel</h4>
-                <p>Lot de 6 : 4,99€<br>Taille unique : L 4 cm, H 4 cm</p>
-                <label for="panier" class="label-input">Ajouter au panier</label>
-                <input type="number" id="panier" min="1" max="10" required>
-                <button onclick="fpanier()">Valider</button>
+                <div>
+                    <img src="images/Stickers_Bapteme/b6.png" alt="baptême 6">
+                </div>
+                <p>
+                    <h4 class="theme-h4">Lot de : 6 Stickers Mon petit arc-en-ciel</h4>
+                    <h5 class="theme-h5">Taille unique : L 6 cm, H 3 cm</h5>
+                    <p>Prix : 4,99€</p>
+                    <label for="panier" class="label-input">Quantité</label>
+                    <input type="number" id="panier" min="1" max="10" required>
+                    <button onclick="fpanier()">Ajouter au panier</button>
+                </p>
             </figcaption>
         </figure>
     </article>
 </div>
 </section>
 
-<script type="text/javascript" src="css/script.js"></script>
+<script type="text/javascript" src="css/themes.js"></script>
 </main> 
 
     <?php
