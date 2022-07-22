@@ -1,3 +1,5 @@
+
+
 <?php
 ?>
 <header class="row col-12 d-none d-md-flex justify-content-between text-orange no-gutters">
@@ -9,7 +11,7 @@
             </figcaption>-->
         </figure>
     </div>
-    <nav class="col-6.5">
+    <nav class="col-6">
         <ul>
             <li><a class="lien" href="base.php">Accueil</a></li>
             <li>
@@ -23,9 +25,9 @@
                 <div class="dropdown-menu bouton">
                     <!-- Dropdown menu links -->
                     <button class="dropdown-item" type="button"><a href="./theme_sport.php">Sports</a></button>
-                    <button class="dropdown-item" type="button"><a href="theme_anniversaire.php">Anniversaire</a></button>
-                    <button class="dropdown-item" type="button"><a href="theme_naissance.php">Naissance</a></button>
-                    <button class="dropdown-item" type="button"><a href="theme_bapteme.php">Baptême</a></button>
+                    <button class="dropdown-item" type="button"><a href="./theme_anniversaire.php">Anniversaire</a></button>
+                    <button class="dropdown-item" type="button"><a href="./theme_naissance.php">Naissance</a></button>
+                    <button class="dropdown-item" type="button"><a href="./theme_bapteme.php">Baptême</a></button>
                     <button class="dropdown-item" type="button"><a href="#">Mariage</a></button>
                     <button class="dropdown-item" type="button"><a href="./theme_metier.php">Métiers</a></button>
                     <button class="dropdown-item" type="button"><a href="#">Animaux</a></button>
@@ -40,10 +42,10 @@
     </nav>
     <div class="col-1">
         <button type="button" class="connexion"><a class="btn_third" href="connexion.php">S'identifier</a></button>
-    </div class="col-1.5">
-   
+    </div class="col-2">
+    <div>
         <button type="button" class="bouton_panier">
-            <img class="panier" src=./images/panier_plein.png><a class="bouton_panier" href="panier.html">Panier</a>
+            <img class="panier" src=./images/panier_plein.png><a class="bouton_panier" href="panier2.php">Panier</a>
         </button>
     </div>
 </header>
