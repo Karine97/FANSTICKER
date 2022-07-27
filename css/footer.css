@@ -1,166 +1,76 @@
-/*========= partie responsive du site ==========*/
-
-
-@media screen and (max-width: 550px){
-    nav li {
-        margin: 0 8px;
-    }
-    nav a {
-        font-size: 15px;
-    }
+/*========= Body / main ==========*/
+/*
+.filigrane {
+    background-image: url("./images/logo_transparence_50.png");
+    background-position: center;
+    background-position-y: 60%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 50%;
 }
+*/
 
-/*========= Body / Header ==========*/
-
-header img {
-    width: 15%;
-}
-
-header {
+main {
     display: flex;
+    margin-top: 13rem;
+    z-index: 9999;
+}
+
+
+
+/*========= Footer ==========*/
+
+footer {
+    display:flex;
     box-sizing: border-box;
-    position: fixed !important;
-    top : 0;
-    z-index:16;
-    background-color: #fcd1af;
+    align-items: flex-end;
+    position: relative;
+	left: 0;
+	right: 0;
+	bottom: 0;
+    white-space: normal;
+    /*padding: 0 12px 24px 12px;*/
 }
 
-header p {
-    display: flex;
-    justify-content: flex-end;
-    margin-left: 1.2rem;
-    margin-top: 0rem;
-    box-sizing:border-box;
-    background-color: #fbac80;
+footer ul {
+ display: flex;
+ list-style-type: none;
+ justify-content: space-around;
+ font-size: 1rem;
+ margin: 0 8px 0 8px;
+ padding: 1.2rem;
+ color: #000000;
+ background-color: #fbac80;
 }
 
-#logo {
-    width: 100%
-
-}
-
-.bouton {
-    color: #000000;
-    border : 4px solid #fbac80 ;
-    border-radius : 6px;
-    text-decoration: none;
-    background-color: #fbac80;
-    margin-top: 1rem;
-    margin-right: 3rem;
-    font-weight: bolder;
-}
-
-.connexion {
-    color: #000000;
-    border : 4px solid #fbac80 ;
-    border-radius : 6px;
-    text-decoration: none;
-    background-color: #fbac80;
-    margin-top: 1rem;
-    margin-right: 3rem;
-    font-weight: bolder;
-    height: 54px;
-    align-items: center;
-}
-
-.bouton:hover {
-    color: #000000;
+footer h3 {
     font-size: 1.3rem;
+}
+
+.lien {
+    color: #000000;
+    text-decoration: none;
+    margin-top : 0.5rem;
+}
+
+li a:hover {
+    font-display: block;
+    color: #000000;
+    font-size: 1.1rem;
     font-weight: bolder;
-    background-color: #fcd1af;
 }
 
-nav ul {
-    display: flex;
-    list-style-type: none;
-    justify-content:space-around;
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin-top: 1rem;
-    margin-right: 2rem;
-    padding-left: 0;
-    background-color: #fbac80;
-    border : 4px solid #fbac80 ;
-    border-radius : 6px;
+.paiement {
+    width:25%;
 }
 
-nav a {
-    display: flex;
-    text-decoration: none;
-    margin-left: 1.2rem;
-    color: #000000;
+.reseau1 {
+    width:13%;
 }
 
-.btn.btn-third {
-    background-color: #fbac80;
-    color: #000000;
-    border : 4px solid #fbac80 ;
-    border-radius : 6px;
-    font-weight: bold;
-    font-size: 1.1rem;
-    width:fit-content;
+.reseau2 {
+    width:40%;
 }
-
-.btn.btn-third:hover {
-    background-color: #fbac80;
-    color: #000000;
-    border : 4px solid #fbac80 ;
-    border-radius : 6px;
-    font-weight: bold;
-    font-size: 1.1rem;
-    width:fit-content;
-}
-
-.btn.btn-third:active {
-    background-color: #fbac80;
-    color: #000000;
-    border : 4px solid #fbac80 ;
-    border-radius : 6px;
-    font-weight: bold;
-    font-size: 1.1rem;
-    width:fit-content;
-}
-
-.dropdown-menu {
-    background-color: #fbac80;
-}
-
-.btn_third {
-    background-color: #fbac80;
-    color: #000000;
-    border : 4px solid #fbac80 ;
-    border-radius : 6px;
-    font-weight: bold;
-    font-size: 1.1rem;
-    width:fit-content;
-}
-
-.btn_third:hover {
-    color: #000000;
-}
-
-.bouton_panier {
-    color: #000000!important;
-    border : 0px solid #fbac80 ;
-    border-radius : 6px;
-    text-decoration: none;
-    background-color: transparent;
-    margin-top: 1rem;
-    margin-right: 3rem;
-    font-weight: bold;
-}
-
-.panier {
-    height: 54px;
-    width: 50px;
-}
-
-.search {
-    width: 1036px;
-}
-
-
-
 
 /*color:
  orange: #fbac80;
@@ -168,7 +78,7 @@ nav a {
  orange clair: #fcd1af;
  */
 
- 
+
 /******************** Media Query ******************/
 
 @media screen and (max-width: 1200px) {

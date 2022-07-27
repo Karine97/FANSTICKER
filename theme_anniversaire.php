@@ -1,7 +1,6 @@
 <?php
-
+ require_once 'model/database.php';
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,7 +28,7 @@
 </head>
 <body class="filigrane" id="background">
     <?php
-        include_once "includes/header.php";
+        include 'view/includes/header.php';
     ?>
     <main>   
 <section>  
@@ -152,7 +151,7 @@
 </main> 
 
     <?php
-        include_once "includes/footer.php";
+        include 'view/includes/footer.php'
     ?>
 </body>
 

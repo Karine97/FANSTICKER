@@ -1,7 +1,3 @@
-
-
-<?php
-?>
 <header class="row col-12 d-none d-md-flex justify-content-between text-orange no-gutters">
     <div class="col-3">
         <figure>

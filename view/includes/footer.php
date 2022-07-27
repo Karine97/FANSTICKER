@@ -1,5 +1,3 @@
-<?php
-?>
 <footer class="row justify-content-center no-gutter">
 <ul class="col-12">
     <div class="col-1.5"></div>
@@ -19,10 +17,10 @@
     </section>
     <section class="col-3">
         <h3>Besoin d'aide ?</h3>
-        <li><a class="lien" href="contact.html">Contactez-nous</a></li>
-        <li><a class="lien" href="service_client.html">Service client</a></li>
-        <li><a class="lien" href="service_client.html">Suivi de commande</a></li>
-        <li><a class="lien" href="faq.html">FAQ</a></li>
+        <li><a class="lien" href="contact.php">Contactez-nous</a></li>
+        <li><a class="lien" href="service_client.php">Service client</a></li>
+        <li><a class="lien" href="service_client.php">Suivi de commande</a></li>
+        <li><a class="lien" href="faq.php">FAQ</a></li>
         <img class="paiement" src="./images/Visa-Logo-Transparent-Images.png" alt="Visa Mastercard">
     </section>
     <section class="col-2">

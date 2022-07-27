@@ -20,13 +20,13 @@
 </head>
 <body class="filigrane" id="background">
     <?php
-        include 'includes/header.php';
+        include 'view/includes/header.php';
     ?>
     <main>
         <div></div>
     </main>
     <?php
-        include 'includes/footer.php';
+        include 'view/includes/footer.php';
     ?>
 </body>
 </html>
