@@ -63,7 +63,6 @@ article img {
     margin-top: 30px;
     margin-right: 60px;
     margin-left: 50px;
-    margin-bottom: 10px;
     padding: 0.9rem;
 }
 
@@ -83,7 +82,7 @@ figcaption {
     margin-left: 90px;
     margin-right: 70px;
     margin-bottom: 50px;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 100px 10px;
     background-color: #fcd1af;
     border-bottom: 2px solid #06080f;
     padding: 0;
